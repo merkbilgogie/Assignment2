@@ -1,5 +1,4 @@
 const express = require('express')
-var port = process.env.PORT || 2000;
 const app = express()
 const path = require('path')
 
@@ -37,6 +36,5 @@ app.get('/blogs', (req, res) =>{
 
 
 
-app.listen(port()=>{
-  console.log('app is running')});
+app.listen(2000)
 

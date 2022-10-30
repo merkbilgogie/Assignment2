@@ -1,0 +1,101 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing:border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+  background: gray;
+  height: 100px;
+  width: 100%;
+
+}
+label.logo{
+  color:white;
+  font-size: 40px;
+  line-height: 100px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 100px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+}
+a.active,a:hover{
+  cursor:pointer;
+  background: rgb(75, 75, 75);
+  transition: .5s
+
+}
+.navbar{
+  height:200px;
+  display:inline-block;
+  margin-top:30px;
+  
+}
+.wrapper{
+  margin: 0 auto;
+  width:max-content;
+}
+.imgofme{
+  width:300px;
+  display:inline-block;
+}
+.vidofme{
+  width: 225px;
+  display: inline-block;
+}
+
+.indproj{
+  margin-bottom:30px;
+}
+.imgofpython{
+  width:300px;
+  display:block;
+  float:left;
+  margin-right:30px;
+}
+.imgofjava{
+  width:200px;
+  display:block;
+  float:right;
+  margin-left:30px;
+}
+.navbar-contact{
+  float:right;
+  width:300px;
+}
+.cisco{
+  display:inline-block;
+}
+.NASA{
+  display:inline-block;
+}
+.blog-desc{
+  margin-top:100px;
+  align-self:center;
+}
+
+
+
+
